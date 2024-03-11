@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hayasem Genshin-Draft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>HAYA-DRAFT</h1>
+    <p>Utilize o sistema de draft para duelar com seus amigos!</p>
+</header>
+<nav>
+    <a href="home.html">Home</a>
+    <a href="#">About</a>
+    <a href="#">rules</a>
+    <a href="#">Settings</a>
+    <a href="#">Feedback</a>
+</nav>
+
+<main>
+    <div class="perfil">
+        <picture>
+            <img id="perfil" onclick="openModal()" src="imagensPerfil/personagensPerfil/Aether_Icon.png" alt="Aether">
+        </picture>
+    </div>
+    <h3 onclick="openModal()">Mude de perfil</h3>
+
+    <input type="text" id="usuario" placeholder="Nickname">
+    <button class="play">Play</button>
+</main>
+<footer>
+    <p>Site criado por <a href="https://github.com/Hayasem?tab=repositories" target="_blank">João Pedro Barbosa Vilharva </a>para treino </p>
+</footer>
+
+<div id="painel" class="painel">
+    <div class="conteudo-painel">
+        <div id="personagens">
+
+        </div>
+    </div>
+</div>
+<script src="interactions.js"></script>
+</body>
+</html>
